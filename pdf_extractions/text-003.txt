@@ -1,0 +1,51 @@
+Contents
+
+1 Introduction
+
+1
+
+2 A First Example
+
+3
+
+3 Programming with Actors and Messages
+
+7
+
+4 Expressions and Simple Functions
+
+11
+
+4.1 Expressions And Simple Functions . . . . . . . . . . . . . . . . . . . . . . 11
+4.2 Parameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+4.3 Conditional Expressions . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+4.4 Example: Square Roots by Newton’s Method . . . . . . . . . . . . . . . . 15
+4.5 Nested Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+4.6 Tail Recursion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+5 First-Class Functions
+
+21
+
+5.1 Anonymous Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
+5.2 Currying . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+5.3 Example: Finding Fixed Points of Functions . . . . . . . . . . . . . . . . 25
+5.4 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27
+5.5 Language Elements Seen So Far . . . . . . . . . . . . . . . . . . . . . . . 28
+6 Classes and Objects
+
+31
+
+7 Case Classes and Pattern Matching
+
+43
+
+7.1 Case Classes and Case Objects . . . . . . . . . . . . . . . . . . . . . . . . 46
+7.2 Pattern Matching . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47
+8 Generic Types and Methods
+
+51
+
+8.1 Type Parameter Bounds . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+8.2 Variance Annotations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+
+

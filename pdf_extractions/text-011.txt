@@ -1,0 +1,37 @@
+5
+
+Both the imperative and the functional implementation have the same asymptotic
+complexity – O(N l og (N )) in the average case and O(N 2 ) in the worst case. But
+where the imperative implementation operates in place by modifying the argument
+array, the functional implementation returns a new sorted array and leaves the argument array unchanged. The functional implementation thus requires more transient memory than the imperative one.
+The functional implementation makes it look like Scala is a language that’s specialized for functional operations on arrays. In fact, it is not; all of the operations used in
+the example are simple library methods of a sequence class Seq[T] which is part of
+the standard Scala library, and which itself is implemented in Scala. Because arrays
+are instances of Seq all sequence methods are available for them.
+In particular, there is the method filter which takes as argument a predicate function. This predicate function must map array elements to boolean values. The result
+of filter is an array consisting of all the elements of the original array for which the
+given predicate function is true. The filter method of an object of type Array[T]
+thus has the signature
+def filter(p: T => Boolean): Array[T]
+
+Here, T => Boolean is the type of functions that take an element of type t and return
+a Boolean. Functions like filter that take another function as argument or return
+one as result are called higher-order functions.
+Scala does not distinguish between identifiers and operator names. An identifier
+can be either a sequence of letters and digits which begins with a letter, or it can be
+a sequence of special characters, such as “+”, “*”, or “:”. Any identifier can be used
+as an infix operator in Scala. The binary operation E op E 0 is always interpreted as
+the method call E .op(E 0 ). This holds also for binary infix operators which start with
+a letter. Hence, the expression xs filter (pivot >) is equivalent to the method
+call xs.filter(pivot >).
+In the quicksort program, filter is applied three times to an anonymous function
+argument. The first argument, pivot >, represents a function that takes an argument x and returns the value pivot > x. This is an example of a partially applied
+function. Another, equivalent way to write this function which makes the missing
+argument explicit is x => pivot > x. The function is anonymous, i.e. it is not defined with a name. The type of the x parameter is omitted because a Scala compiler
+can infer it automatically from the context where the function is used. To summarize, xs.filter(pivot >) returns a list consisting of all elements of the list xs that
+are smaller than pivot.
+Looking again in detail at the first, imperative implementation of Quicksort, we find
+that many of the language constructs used in the second solution are also present,
+albeit in a disguised form.
+
+

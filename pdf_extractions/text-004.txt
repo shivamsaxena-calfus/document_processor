@@ -1,0 +1,54 @@
+iv
+
+CONTENTS
+
+8.3 Lower Bounds . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+8.4 Least Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 58
+8.5 Tuples . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60
+8.6 Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 61
+9 Lists
+
+63
+
+9.1 Using Lists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63
+9.2 Definition of class List I: First Order Methods . . . . . . . . . . . . . . . 65
+9.3 Example: Merge sort . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
+9.4 Definition of class List II: Higher-Order Methods . . . . . . . . . . . . . 70
+9.5 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 77
+10 For-Comprehensions
+
+79
+
+10.1 The N-Queens Problem . . . . . . . . . . . . . . . . . . . . . . . . . . . . 80
+10.2 Querying with For-Comprehensions . . . . . . . . . . . . . . . . . . . . . 81
+10.3 Translation of For-Comprehensions . . . . . . . . . . . . . . . . . . . . . 82
+10.4 For-Loops . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+10.5 Generalizing For . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
+11 Mutable State
+
+87
+
+11.1 Stateful Objects . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 87
+11.2 Imperative Control Structures . . . . . . . . . . . . . . . . . . . . . . . . . 91
+11.3 Extended Example: Discrete Event Simulation . . . . . . . . . . . . . . . 92
+11.4 Summary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+12 Computing with Streams
+
+99
+
+13 Iterators
+
+103
+
+13.1 Iterator Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+13.2 Constructing Iterators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+13.3 Using Iterators . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+14 Lazy Values
+
+109
+
+15 Implicit Parameters and Conversions
+
+113
+
+
